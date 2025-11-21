@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Site de academia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Calculadora de IMC</h1>
+    <p>Descubra seu Índice de Massa Corporal</p>
+  </header>
+  <main>
+  <div class="layout-central">
+
+    <img src="img/melody.jpg" class="imagem-lateral">
+
+    <section class="container">
+      <h2>Digite seus dados</h2>
+
+      <form id="form-imc">
+        <label>Peso (kg):</label>
+        <input type="number" id="peso" placeholder="Ex: 70">
+
+        <label>Altura (m):</label>
+        <input type="number" id="altura" placeholder="Ex: 1.75">
+
+        <button type="submit">Calcular IMC</button>
+      </form>
+
+      <div id="resultado"></div>
+    </section>
+
+  </div>
+</main>
+
+  <footer>
+    <p>Projeto desenvolvido para disciplina de Desenvolvimento Web</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
