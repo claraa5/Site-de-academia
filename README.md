@@ -52,5 +52,4 @@ E o site gera automaticamente:
 
 ---
 
-## 📁 Estrutura dos arquivos
 
